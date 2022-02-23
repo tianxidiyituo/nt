@@ -1,0 +1,113 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+    <style type="text/css">
+        .top{
+            /* 设置宽度高度背景颜色 */
+            height: 50px;
+            width:100%;
+            background:rgb(189, 181, 181);
+            position: fixed; /*固定在顶部*/
+            top: 0;/*离顶部的距离为0*/
+        }
+        .top ul{
+            /* 清除ul标签的默认样式 */
+            width: 80%;
+            list-style-type: none;
+            margin: 0;            
+            padding: 0;
+            overflow: hidden;
+ 
+        }
+        .top li {    
+            float:left; /* 使li内容横向浮动，即横向排列  */
+            margin-right:50px;  /* 两个li之间的距离*/
+        }
+ 
+        .top li a{
+           /* 设置链接内容显示的格式*/
+            display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+            color:white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; /* 去除下划线 */
+        }
+        .top li a:hover{
+            /* 鼠标选中时背景变为黑色 */
+            background-color: #111;
+        }
+        .top ul li ul{
+            /* 设置二级菜单 */
+            width: auto;
+            background:rgb(189, 181, 181);
+            position: absolute;
+            display: none; /* 默认隐藏二级菜单的内容 */
+ 
+        }
+        .top ul li ul li{
+            /* 二级菜单li内容的显示 */
+            margin-right:0;
+            float:none;
+            text-align: center;
+        }
+        .top ul li:hover ul{
+            /* 鼠标选中二级菜单内容时 */
+            display: block;
+        }
+       </style>
+        <body bgcolor="pink">
+            <div class="top">
+                   <center> 
+                    <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#">联系我</a></li>
+                    <li>
+                        <a href="#">More</a>
+                        <ul>
+                            <li><a href="download.html">男同交友</a></li>
+                            <li><a href="more.html">更多男同</a></li>
+                        </ul>
+                    </li>        
+                      </ul>
+                    </center>      
+            </div>
+   <meta charset="utf-8">
+   <title>孙琪深官网-更多</title>
+   </head>
+   <body bgcolor="pink">
+   <center>
+   <img src="img/1.jpg" width="30%">
+   <br/>
+   <p>遵纪守法色公民</p>
+   <br/>
+   <img src="img/2.jpg" width="30%">
+   <br/>
+   <p>阿软</p>
+   <br/>
+   <img src="img/3.jpg" width="30%">
+   <br/>
+   <p>老八</p>
+   <br/>
+   <img src="img/4.jpg" width="30%">
+   <br/>
+   <p>自闭渔</p>
+   <br/><img src="img/5.jpg" width="30%">
+   <br/>
+   <p>万物</p>
+   <br/><img src="img/6.jpg" width="30%">
+   <br/>
+   <p>木叶</p>
+   <br/>
+   <img src="img/7.jpg" width="30%">
+   <br/>
+   <p>社恐人</p>
+   <br/>
+   <a href="more.html">
+   <img src="img/top.png" width="10%">
+   </br>
+   <p>点我返回顶部</p>
+   </a>
+   
+   </center>
+   </body>
+   </html>
